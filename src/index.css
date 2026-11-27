@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0A0A0A; color: #fff; font-family: 'JetBrains Mono', monospace; }
+h1,h2,h3 { font-family: 'Playfair Display', serif; }
+.card { background: #1E1E24; border: 1px solid #333; border-radius: 12px; padding: 16px; backdrop-filter: blur(10px); }
+.gold { color: #D4AF37; }
+.gold-border { border: 2px solid #D4AF37 !important; }
+input, select { background: #0A0A0A; border: 1px solid #444; color: #fff; padding: 10px; border-radius: 8px; width: 100%; font-family: 'JetBrains Mono', monospace; }
+label { font-size: 11px; color: #aaa; text-transform: uppercase; letter-spacing: 1px; }
+button { cursor: pointer; }
+.btn-gold { background: #D4AF37; color: #000; border: none; padding: 14px; border-radius: 10px; font-weight: 700; width: 100%; font-family: 'JetBrains Mono', monospace; }
+.tab { flex: 1; padding: 12px; background: #1E1E24; color: #fff; border: 1px solid #333; border-radius: 10px; }
+.tab.active { border-color: #D4AF37; color: #D4AF37; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
